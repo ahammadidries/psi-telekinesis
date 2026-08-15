@@ -7,8 +7,8 @@ import {
 const WASM_PATH =
   "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/wasm";
 
-const MODEL_PATH = "/models/hand_landmarker.task";
-
+const MODEL_PATH =
+  `${import.meta.env.BASE_URL}models/hand_landmarker.task`;
 export function useHandTracking(videoRef) {
   const handLandmarkerRef = useRef(null);
   const animationFrameRef = useRef(null);

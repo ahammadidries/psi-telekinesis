@@ -1,6 +1,5 @@
 {
-  "name": "touchless",
-  "homepage": "https://ahammadidries.github.io/touchless",
+  "name": "psi-telekinesis",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,14 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^1.0.1",
-    "gh-pages": "^6.3.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
